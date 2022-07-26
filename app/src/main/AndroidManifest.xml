@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.androidjetpackcompose">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidJetPackCompose"
         tools:targetApi="31">
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.AndroidJetPackCompose" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

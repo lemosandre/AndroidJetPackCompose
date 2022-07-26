@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/compose-model-1658535735742.xml" value="0.25844594594594594" />
+        <entry key="../../.gradle/caches/transforms-3/78d50868e448832206dedaa0c52e0a89/transformed/core-1.7.0/res/drawable-v21/notification_action_background.xml" value="0.192" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.20572916666666666" />
       </map>
     </option>
   </component>
